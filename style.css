@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    height: 270px;
+    text-align: center;
+}
+
+header > h1{
+    font-family: 'Passion One', cursive;
+    font-size: 140px;
+    font-weight: 100;
+    color: white;
+    padding-top: 50px;
+}
+
+header > p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+.normal{
+    background-color: white;
+    color:black;
+    font-family: 'Sriracha', cursive;
+    font-size: 45px;
+    padding: 50px;
+    width: 500px;
+}
+
+.imagem1{
+    background-image: url('imgs/flor.jpg');
+    height: 840px;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.texto-imagem{
+    font-family: 'Sriracha',cursive;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    width: 500px;
+    padding: 50px;
+    font-size: 45px;
+    position:  absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.imagem2{
+    background-image: url('imgs/livro.jpg');
+    height: 840px;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
