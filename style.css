@@ -13,7 +13,7 @@ header{
 
 header > h1{
     font-family: 'Passion One', cursive;
-    font-size: 140px;
+    font-size: 85px;
     font-weight: 100;
     color: white;
     padding-top: 50px;
@@ -55,7 +55,7 @@ section{
 
 .imagem1{
     background-image: url('imgs/flor.jpg');
-    height: 450px;   
+    height: 500px;   
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -74,7 +74,7 @@ section.imagem1 > p{
 
 .imagem2 {
     background-image: url('imgs/livro.jpg');
-    height: 450px;   
+    height: 500px;   
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
