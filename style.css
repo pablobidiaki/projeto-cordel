@@ -48,18 +48,18 @@ section{
     background-color: white;
     color:black;
     font-family: 'Sriracha', cursive;
-    font-size: 45px;
+    font-size: 2em;
     max-width: 800px;
     line-height: 2em;
 }
 
 .imagem1{
     background-image: url('imgs/flor.jpg');
-    height: 580px;   
+    height: 450px;   
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-
+    box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.404);
 }
 
 section.imagem1 > p{
@@ -68,17 +68,18 @@ section.imagem1 > p{
     color: white;
     display: inline-block;
     padding: 5px;
-    font-size: 45px;
+    font-size: 2em;
     text-shadow: 2px 1px 0px black;
 }
 
 .imagem2 {
     background-image: url('imgs/livro.jpg');
-    height: 580px;   
+    height: 450px;   
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
     position: relative;
+    box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.404);
 }
 
 section.imagem2 > p{
@@ -87,7 +88,7 @@ section.imagem2 > p{
     color: white;
     display: inline-block;
     padding: 5px;
-    font-size: 45px;
+    font-size: 2em;
     text-shadow: 2px 1px 0px black;
 }
 
