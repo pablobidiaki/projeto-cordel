@@ -42,14 +42,14 @@ header > p > a:hover{
     font-family: 'Sriracha', cursive;
     font-size: 45px;
     padding: 50px;
-    width: 500px;
+    max-width: 500px;
 }
 
 .imagem1{
     background-image: url('imgs/flor.jpg');
     height: 840px;   
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     position: relative;
 }
@@ -70,7 +70,7 @@ header > p > a:hover{
     background-image: url('imgs/livro.jpg');
     height: 840px;   
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     position: relative;
 }
