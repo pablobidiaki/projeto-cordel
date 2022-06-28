@@ -42,12 +42,12 @@ header > p > a:hover{
     font-family: 'Sriracha', cursive;
     font-size: 45px;
     padding: 50px;
-    max-width: 500px;
+    max-width: 800px;
 }
 
 .imagem1{
     background-image: url('imgs/flor.jpg');
-    height: 840px;   
+    height: 800px;   
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -58,17 +58,17 @@ header > p > a:hover{
     font-family: 'Sriracha',cursive;
     background-color: rgba(0, 0, 0, 0.541);
     color: white;
-    width: 500px;
+    width: 600px;
     padding: 50px;
     font-size: 45px;
     position:  absolute;
     left: 50px;
-    top: 50px;
+    top: 70px;
 }
 
 .imagem2{
     background-image: url('imgs/livro.jpg');
-    height: 840px;   
+    height: 800px;   
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
